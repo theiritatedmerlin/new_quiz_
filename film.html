@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опрос</title>
+    <style>body{
+           background-image: url(old.jpg);
+      
+      </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Данные</legend>
+          <label>
+            Имя пользователя
+            <input type="text" name="username" />
+          </label>
+          <label><br>
+            Email
+            <input type="email" name="email" />
+          </label><br>
+            Дата рождение
+            <input type="date" name="email" />
+        </label>
+        </fieldset>
+        <fieldset>
+        <legend>Укажите пол</legend>
+    
+         <label>
+            <input type="radio" name="sex" value="male">
+            Мужской
+          </label>
+          <label>
+            <input type="radio" name="sex" value="female">
+            Женский
+          </label>
+          <label>
+            <input type="radio" name="sex" value="no">
+            Не указан
+
+         </label>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Какой ваш любимый жанр? </legend>
+          <label>
+            <input type="checkbox" name="genre" value="fantasy">
+            Фантастика
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="comedy">
+            Комедия
+          </label>
+          <label>
+            <input type="checkbox" name="genre" value="drama">
+            Драма
+          </label>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Какие фильмы вы предпочитаете смотреть в кино?</legend>
+          <label>
+            <input type="checkbox" name="film" value="ukranian">
+            Украинские фильмы 
+          </label>
+          <label>
+            <input type="checkbox" name="film" value="foreign">
+            Зарубежные
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Какой формат фильмов вам нравится больше?</legend>
+          <label>
+            <input type = "radio" name = "format" value="2d"> 2D
+           </label>
+           <label>
+           <input type = "radio" name = "format" value="3d"> 3D
+          </label>
+          </fieldset>
+          <fieldset>
+          <legend>Как часто вы ходите смотреть фильмы в кинотеатр?</legend>
+            <lable><input type = "radio" name = "format" value="once a week"> Раз в неделю
+          </label>
+          <label>
+          <input type = "radio" name = "format" value="once a month"> Раз в месяц
+         </label>
+         <lable><input type = "radio" name = "format" value="every two or three months"> Раз в 2-3 месяца
+        </label>
+        <label>
+        <input type = "radio" name = "format" value="every six months or less"> Раз в полгода и реже
+       </label>
+       </fieldset>
+
+
+          </legend>
+
+
+        </fieldset>
+      
+        <button type="submit">Subscribe</button>
+        
+      </form>
+    
+</body>
+</html>
